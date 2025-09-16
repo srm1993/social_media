@@ -46,7 +46,7 @@ function Header({ isLoggedIn }) {
         {/* Profile Image */}
         {user && user.profilePicture ? (
           <img
-            src={`http://localhost:8000/profiles/${user.profilePicture}`} // e.g. "/profiles/filename.png"
+            src={`https://social-media-backend-t8wk.onrender.com/profiles/${user.profilePicture}`} // e.g. "/profiles/filename.png"
             alt="Profile"
             style={{
               width: "40px",
