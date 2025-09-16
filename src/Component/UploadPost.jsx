@@ -33,7 +33,7 @@ function UploadPost() {
       formData.append("image", image);
       formData.append("userId", userId);
 
-      const res = await axios.post("http://localhost:8000/api/posts", formData, {
+      const res = await axios.post("https://social-media-backend-t8wk.onrender.com/api/posts", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
